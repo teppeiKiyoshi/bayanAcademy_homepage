@@ -1,0 +1,24 @@
+.carousel-main .carousel-container {
+  width: 80%;
+  padding: 10px;
+}
+
+.carousel-container #prev-slide, 
+.carousel-container #next-slide {
+  height: 25px;
+  width: 25px;
+}
+
+.carousel-container #prev-slide {
+  left: -20px;
+}
+.carousel-container #next-slide {
+  right: -20px;
+}
+
+.dot-container .dot-btn {
+  height: 8px;
+  width: 8px;
+  border: 2px solid var(--nav-color);
+}
+
